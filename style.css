@@ -1,0 +1,45 @@
+body{
+    background:rgba(160, 81, 45, 0.753)
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#bankHeader{
+    width: 100%;
+    font-size: 75px;
+}
+.bankForms{
+    background: rgba(0, 0, 0, 0.26);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 450px;
+    justify-content:space-evenly;
+    border: 2px dotted black;
+    border-radius: 2%;
+}
+
+h1{
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+
+}
+button{
+    align-self: center;
+    width: fit-content;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.747);
+    color: white;
+}
+input{
+    width: 50%;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
