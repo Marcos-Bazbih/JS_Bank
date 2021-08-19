@@ -43,3 +43,14 @@ label{
     font-size: 18px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px){
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bankForms{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+}
