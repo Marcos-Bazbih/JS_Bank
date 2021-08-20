@@ -197,10 +197,10 @@ addClientBtn.onclick = function () {
 
 // ******************************__b__*******************************
 const getMoneyBtn = document.getElementById("getMoneyBtn");
-getMoneyBtn.onclick = function(){
-    for(let i=0; i<clients.length;i++){
-        if(getMoneyId.value == clients[i].id && getMoneyName.value == clients[i].firstName){
-            clients[i].balance -= Number (getMoneyAmount.value);
+getMoneyBtn.onclick = function () {
+    for (let i = 0; i < clients.length; i++) {
+        if (getMoneyId.value == clients[i].id && getMoneyName.value == clients[i].firstName) {
+            clients[i].balance -= Number(getMoneyAmount.value);
             console.log(clients[i]);
         }
     }
@@ -210,10 +210,10 @@ getMoneyBtn.onclick = function(){
 
 // ******************************__c__*******************************
 const depositMoneyBtn = document.getElementById("depositMoneyBtn");
-depositMoneyBtn.onclick = function(){
-    for(let i=0; i<clients.length;i++){
-        if(depositMoneyId.value == clients[i].id && depositMoneyName.value == clients[i].firstName){
-            clients[i].balance += Number (depositMoneyAmount.value);
+depositMoneyBtn.onclick = function () {
+    for (let i = 0; i < clients.length; i++) {
+        if (depositMoneyId.value == clients[i].id && depositMoneyName.value == clients[i].firstName) {
+            clients[i].balance += Number(depositMoneyAmount.value);
             console.log(clients[i]);
         }
     }
